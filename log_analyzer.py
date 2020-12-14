@@ -78,7 +78,7 @@ def classify(actual, readings):
     return branding
 
 # call load data to get actual values and readings dictionaries
-actual, readings = loadData('data.txt')
+actual, readings = loadData('data.log')
 
 # call classify to brand the devices as per standard
 branding = classify(actual, readings)
