@@ -1,5 +1,5 @@
 FROM ubuntu
-LABEL Bekzat Maxut
+LABEL Bakha Issakhov
 RUN apt-get update -y
 
 #Installs python3 and numpy 
